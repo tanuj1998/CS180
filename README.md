@@ -1,1 +1,1 @@
-# CS180
+# CS180: OOP in JAVA
