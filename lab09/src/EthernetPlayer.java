@@ -68,7 +68,6 @@ public class EthernetPlayer extends MusicPlayer {
     /**
      *  download: Downloads mentioned song from the given Download list and adds to playlist
      *  print appropriate messages to stdout
-     *
      */
     public void download(String trackName) {
         //implement this section of code to lookup tracName in the downloadlist and
