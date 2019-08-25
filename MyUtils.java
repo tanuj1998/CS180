@@ -6,7 +6,7 @@ public class MyUtils
 		char c;
 		char next;
 		int i ;
-		if(str.length()==0)
+		if(str.length() == 0)
 		{
 			return false;
 		}
@@ -16,14 +16,14 @@ public class MyUtils
 			for(i = 0; i < len ; i++)
 			{
 				c = str.charAt(i);
-				if(c>=48 && c<=57)
+				if(c >= 48 && c <= 57)
 				{
 					continue;
 				}
-				else if(c==46)
+				else if(c == 46)
 				{
 					next = str.charAt(i+1);
-					if(next>=48 && next<=57)
+					if(next >= 48 && next <= 57)
 					{
 						i++;
 						continue;
