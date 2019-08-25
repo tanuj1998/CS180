@@ -13,7 +13,7 @@ public class MyUtils
 		else
 		{
 			int len = str.length();
-			for(i=0; i<len ; i++)
+			for(i = 0; i < len ; i++)
 			{
 				c = str.charAt(i);
 				if(c>=48 && c<=57)
