@@ -152,7 +152,6 @@ public class Pokemon
         double pokemon1 = p1.getBaseAttackPower() * getAttackMultiplier(p1, p2);
         double pokemon2 = p2.getBaseAttackPower() * getAttackMultiplier(p2, p1);
 
-
         while (p1.getHealthPower() != 0 || p2.getHealthPower() != 0) 
         {
             p1.reduceHealthPower((int) pokemon2);
