@@ -5,7 +5,6 @@ import javax.swing.JFrame;
 import javax.swing.JColorChooser;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 /**
  * CS180 - Lab 08
  *
