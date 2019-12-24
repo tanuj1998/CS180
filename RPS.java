@@ -31,7 +31,7 @@ public class Game
            System.out.println("Thanks for playing");
            return;
         }
-                switch(input) {
+             switch(input) {
                         case 1: System.out.println("You played Rock");
                         break;
 
