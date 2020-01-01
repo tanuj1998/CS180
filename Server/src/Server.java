@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Server {
-
 	// these should be parallel arrays
 	private static ArrayList<Socket> clientSockets = new ArrayList<Socket>();
 	private static ArrayList<ClientThread> clientThreads = new ArrayList<ClientThread>();
