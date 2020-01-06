@@ -13,7 +13,7 @@ public class Matrix
             public boolean isSymmetric(int[][] matrix )
             {
                 for(int row = 0; row < matrix.length; row++){
-                for(int column=0; column< matrix.length; column++){
+                   for(int column=0; column< matrix.length; column++){
 
                 if(matrix[row][column]!= matrix[column][row]){
                         return false;
