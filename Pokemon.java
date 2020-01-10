@@ -6,8 +6,6 @@ import java.util.*;
  *
  * @version 10/07/16 
 */
-
-
 public class Pokemon
  {
     private String name;
